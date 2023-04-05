@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Assignment Nagra | RAHUL VERMAN</title>
+<style>
+header {
+	position: -webkit-sticky;
+	position : sticky;
+	top : 1rem;
+	margin : 1rem 0.6rem 0 0.6rem;
+	padding : 1rem 2rem;
+	border-radius : 1.5rem;
+	background : #fff;	
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	height : 2.5rem ;
+	object-fit : contain ;
+	cursor: pointer;
+}
+body {
+	margin : 0; 
+	background : rgb(255,255,0);
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	font-size: 1.1rem;
+}
+main  { 
+	margin: 3.5rem;
+}
+.container {
+	display: flex;
+	margin: 1.5rem 0;
+	justify-content : center; 
+	flex-wrap: wrap;
+}
+.image, .video {
+	flex : 1;
+	margin :2.5rem;
+	height: 25rem;
+	width: 25rem;
+	object-fit : contain;
+	cursor: pointer;
+}
+.video {
+	object-fit : inherit;
+}
+.text {
+	margin: 1rem 5.5rem;
+	flex: 1;
+}
+
+@media only screen and (max-width:900px) {
+        .text{
+	flex: inherit;
+	margin: 1rem;
+         }
+        .image, .video {
+	margin: 2.5rem 1.5rem ;
+	height: 35rem;
+	width: 35rem;
+        }
+}
+@media only screen and (max-width:900px) {
+        .image, .video {
+	margin: 1rem 0rem ;
+	height: 30rem;
+	width: 30rem;
+        }
+}
+footer {
+	height : 7rem;
+	background: #000;
+	color: #fff;
+	display : flex ;
+	justify-content : center;
+	align-items:center;
+}
+</style>
+<link rel="icon" href="favicon.ico" >
+</head>
+<body>
+<header>
+<a href="https://www.nagra.com/" target="_blank" rel="noopener noreferrer">
+<img src="nagra.png" alt="NagraVision | Kudelski Group" class="logo">
+</a>
+<a href="https://www.bugatti.com/" target="_blank" rel="noopener noreferrer">
+<img src="bugatti.jpg" alt="BUGATTI Automotive" class="logo">
+</a>
+</header>
+<main>
+<div class="container">
+
+<img src="w16.jpg" alt="BUGATTI W16 MISTRAL" class="image">
+
+<video src="w16m.mp4" class="video" autoplay controls loop>
+</div>
+<div class="container">
+<b class="text">Ever since the Veyron was introduced in 2005, the W16 engine has been the beating heart of every Bugatti. The roadgoing car that brings the W16 era to an end was always destined to be special: exclusive, elegant and powerful. It must be the very best of its kind. This is W16 Mistral: the ultimate roadster. Powerful. Elegant. A force of nature like no other. The Mistral is a one-of-a-kind wind that heralds the new seasons in southern France, stirring awe in all who experience it. A sublime inspiration, for the ultimate Roadster.
+</b>
+<p class="text" style="font-size:1.2rem"> 
+<span style="font-size:1.3rem;font-weight:bold">Mate Rimac, Bugatti Rimac CEO, said: </span>“For the final roadgoing appearance of Bugatti’s legendary W16 engine, we knew we had to create a roadster. Well over 40% of all Bugatti vehicles ever created have been open-top in design, establishing a long lineage of performance icons that – to this day – are revered the world over. In the Chiron1 era there had, to-date, been no roadster, so the introduction of W16 Mistral2 continues this legacy, driven by enormous demand from our clients for an all-new way to experience the mighty performance of our iconic engine. The W16 Mistral opens the next chapter in the Bugatti roadster story, inspired by over a century of open top legends.”
+</p>
+</div>
+</main>
+<footer>
+<div>
+Designed & Developed&nbsp;<I>by </I>&nbsp;RAHUL VERMAN
+<div><center>2023 | INDIA</center></div>
+</div>
+</footer>
+</body>
+</html>
